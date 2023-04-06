@@ -1,7 +1,7 @@
 # fracture_cv
 
 
-Use computer vision to identify fractures in a Lidar DEM from Southern Oklahoma at the Wichita Mountains National Wildlife Refuge
+Use computer vision to identify fractures in a Lidar DEM from Southern Oklahoma at the Wichita Mountains National Wildlife Refuge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakewalter/fracture_cv/blob/main/dem_fracture.ipynb)
 
 1. Get a DEM and load into Python
 2. On vertical and horizontal scanlines of the DEM find the local minima from with first derivative of those elevation profiles and save the minima coordinates
